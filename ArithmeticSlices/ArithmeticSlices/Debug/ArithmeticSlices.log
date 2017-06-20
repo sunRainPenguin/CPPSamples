@@ -1,0 +1,4 @@
+﻿  Solution.cpp
+d:\documents\c++test\arithmeticslices\arithmeticslices\solution.h(102): warning C4018: '<': signed/unsigned mismatch
+  ArithmeticSlices.vcxproj -> D:\Documents\C++Test\ArithmeticSlices\Debug\ArithmeticSlices.exe
+  ArithmeticSlices.vcxproj -> D:\Documents\C++Test\ArithmeticSlices\Debug\ArithmeticSlices.pdb (Full PDB)

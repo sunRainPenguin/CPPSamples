@@ -1,0 +1,4 @@
+﻿  Solution.cpp
+d:\documents\c++test\keyboardrow\keyboardrow\solution.h(15): warning C4018: '<': signed/unsigned mismatch
+d:\documents\c++test\keyboardrow\keyboardrow\solution.h(42): warning C4018: '<': signed/unsigned mismatch
+LINK : fatal error LNK1168: cannot open D:\Documents\C++Test\keyboardRow\Debug\keyboardRow.exe for writing
