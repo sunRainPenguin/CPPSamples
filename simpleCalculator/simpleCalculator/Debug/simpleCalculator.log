@@ -1,0 +1,4 @@
+﻿  Solution.cpp
+d:\documents\c++test\simplecalculator\simplecalculator\solution.h(192): warning C4018: '<': signed/unsigned mismatch
+  simpleCalculator.vcxproj -> D:\Documents\C++Test\simpleCalculator\Debug\simpleCalculator.exe
+  simpleCalculator.vcxproj -> D:\Documents\C++Test\simpleCalculator\Debug\simpleCalculator.pdb (Full PDB)

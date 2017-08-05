@@ -1,0 +1,4 @@
+﻿  Solution.cpp
+d:\documents\c++test\randomnote\randomnote\solution.h(25): warning C4018: '<': signed/unsigned mismatch
+  randomNote.vcxproj -> D:\Documents\C++Test\randomNote\Debug\randomNote.exe
+  randomNote.vcxproj -> D:\Documents\C++Test\randomNote\Debug\randomNote.pdb (Full PDB)

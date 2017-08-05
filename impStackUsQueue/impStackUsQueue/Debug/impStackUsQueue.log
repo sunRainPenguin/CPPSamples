@@ -1,0 +1,4 @@
+﻿  MyStack.cpp
+d:\documents\c++test\impstackusqueue\impstackusqueue\mystack.h(67): warning C4715: 'MyStack::top': not all control paths return a value
+  impStackUsQueue.vcxproj -> D:\Documents\C++Test\impStackUsQueue\Debug\impStackUsQueue.exe
+  impStackUsQueue.vcxproj -> D:\Documents\C++Test\impStackUsQueue\Debug\impStackUsQueue.pdb (Full PDB)

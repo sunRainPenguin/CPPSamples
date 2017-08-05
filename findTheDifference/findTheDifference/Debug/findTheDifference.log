@@ -1,0 +1,5 @@
+﻿  Solution.cpp
+d:\documents\c++test\findthedifference\findthedifference\solution.h(13): warning C4018: '<': signed/unsigned mismatch
+d:\documents\c++test\findthedifference\findthedifference\solution.h(15): warning C4018: '<': signed/unsigned mismatch
+  findTheDifference.vcxproj -> D:\Documents\C++Test\findTheDifference\Debug\findTheDifference.exe
+  findTheDifference.vcxproj -> D:\Documents\C++Test\findTheDifference\Debug\findTheDifference.pdb (Full PDB)
