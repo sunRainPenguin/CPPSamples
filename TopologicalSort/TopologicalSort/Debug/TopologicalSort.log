@@ -1,0 +1,4 @@
+﻿  Graph.cpp
+d:\documents\cppprojects\topologicalsort\topologicalsort\graph.h(84): warning C4018: '<': signed/unsigned mismatch
+  TopologicalSort.vcxproj -> D:\Documents\CPPProjects\TopologicalSort\Debug\TopologicalSort.exe
+  TopologicalSort.vcxproj -> D:\Documents\CPPProjects\TopologicalSort\Debug\TopologicalSort.pdb (Full PDB)

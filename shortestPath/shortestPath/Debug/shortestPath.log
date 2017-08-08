@@ -1,0 +1,7 @@
+﻿  Graph.cpp
+d:\documents\cppprojects\shortestpath\shortestpath\graph.h(101): warning C4018: '<': signed/unsigned mismatch
+d:\documents\cppprojects\shortestpath\shortestpath\graph.h(137): warning C4018: '<': signed/unsigned mismatch
+d:\documents\cppprojects\shortestpath\shortestpath\graph.h(172): warning C4018: '<': signed/unsigned mismatch
+d:\documents\cppprojects\shortestpath\shortestpath\graph.h(182): warning C4018: '<': signed/unsigned mismatch
+  shortestPath.vcxproj -> D:\Documents\CPPProjects\shortestPath\Debug\shortestPath.exe
+  shortestPath.vcxproj -> D:\Documents\CPPProjects\shortestPath\Debug\shortestPath.pdb (Full PDB)
