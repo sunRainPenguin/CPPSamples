@@ -1,0 +1,5 @@
+﻿  Solution.cpp
+d:\documents\cppprojects\k-diffpairs\k-diffpairs\solution.h(18): warning C4018: '<': signed/unsigned mismatch
+d:\documents\cppprojects\k-diffpairs\k-diffpairs\solution.h(45): warning C4018: '<': signed/unsigned mismatch
+  K-diffPairs.vcxproj -> D:\Documents\CPPProjects\K-diffPairs\Debug\K-diffPairs.exe
+  K-diffPairs.vcxproj -> D:\Documents\CPPProjects\K-diffPairs\Debug\K-diffPairs.pdb (Full PDB)

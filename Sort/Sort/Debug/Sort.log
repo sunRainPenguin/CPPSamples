@@ -1,0 +1,4 @@
+﻿  Solution.cpp
+d:\documents\cppprojects\sort\sort\solution.h(88): warning C4715: 'Solution::MergeSort': not all control paths return a value
+  Sort.vcxproj -> D:\Documents\CPPProjects\Sort\Debug\Sort.exe
+  Sort.vcxproj -> D:\Documents\CPPProjects\Sort\Debug\Sort.pdb (Full PDB)
