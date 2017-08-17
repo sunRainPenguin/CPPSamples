@@ -15,6 +15,13 @@ public:
 	}
 };
 int main(int argc, char * argv[]) {
-	cout << sizeof(A) << "" << sizeof(char) << endl;
+	//cout << sizeof(A) << "" << sizeof(char) << endl;
+	double arr[10] = {0.1,0.2,0.3};
+	for (size_t i = 3; i < 10; i++)
+	{
+		cout << arr[i] << endl;
+	}
+	cout << sizeof(arr) << " " <<sizeof(arr[0]) << endl;
+	cout << '\011' << endl;
 	return 0;
 }

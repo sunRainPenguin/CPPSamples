@@ -86,5 +86,48 @@ public:
 			mergeSort(a, 0, n - 1, p);
 		}
 	}
+
+	// 快速排序
+	void quickSort(int a[], int n, int low, int high)
+	{
+		int pivot = partition(a, low, high);
+		quickSort(a, n, low, pivot - 1);
+		quickSort(a, n, pivot + 1, high);
+	}
+
+	// 快速分割
+	int partition(int a[], int left, int right)
+	{
+		int base = left;
+		while (left < right)
+		{
+			while (a[right] >= a[base])
+			{
+				right--;
+			}
+			if (a[right] < a[base])
+			{
+				swap(left, right);
+			}
+			while (a[left] <= a[base])
+			{
+				left++;
+			}
+			if (a[left] > a[base])
+			{
+				swap(left, right);
+			}
+		}
+		return left;
+	}
+
+	// 交换
+	void swap(int& a, int&b)
+	{
+		int temp;
+		temp = a;
+		a = b;
+		b = a;
+	}
 };
 

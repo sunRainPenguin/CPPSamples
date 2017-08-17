@@ -1,0 +1,4 @@
+﻿  Solution.cpp
+d:\documents\git\cppsamples\cppsamples\diagonaltraverse\diagonaltraverse\solution.cpp(10): warning C4018: '<': signed/unsigned mismatch
+  diagonalTraverse.vcxproj -> D:\Documents\git\CPPSamples\CPPSamples\diagonalTraverse\Debug\diagonalTraverse.exe
+  diagonalTraverse.vcxproj -> D:\Documents\git\CPPSamples\CPPSamples\diagonalTraverse\Debug\diagonalTraverse.pdb (Full PDB)

@@ -13,5 +13,9 @@ int main()
 	int a[] = { 1,4,6,8,2,3,5,7};
 	solution.MergeSort(a, 8);
 	solution.printArr(a, 8);
+
+	int b[] = { 1,4,6,8,2,3,5,7 };
+	solution.quickSort(b, 8, 0, 7);
+	solution.printArr(b, 8);
 	return 0;
 }
