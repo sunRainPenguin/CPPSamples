@@ -90,32 +90,35 @@ public:
 	// 快速排序
 	void quickSort(int a[], int n, int low, int high)
 	{
-		int pivot = partition(a, low, high);
-		quickSort(a, n, low, pivot - 1);
-		quickSort(a, n, pivot + 1, high);
+		if (low < high)
+		{
+			int pivot = partition(a, low, high);
+			quickSort(a, n, low, pivot - 1);
+			quickSort(a, n, pivot + 1, high);
+		}
 	}
 
 	// 快速分割
 	int partition(int a[], int left, int right)
 	{
-		int base = left;
+		int base = a[left];
 		while (left < right)
 		{
-			while (a[right] >= a[base])
+			while (a[right] >= base && left<right)
 			{
 				right--;
 			}
-			if (a[right] < a[base])
+			if (a[right] < base)
 			{
-				swap(left, right);
+				swap(a[left], a[right]);
 			}
-			while (a[left] <= a[base])
+			while (a[left] <= base && left<right)
 			{
 				left++;
 			}
-			if (a[left] > a[base])
+			if (a[left] > base)
 			{
-				swap(left, right);
+				swap(a[left], a[right]);
 			}
 		}
 		return left;
@@ -127,7 +130,7 @@ public:
 		int temp;
 		temp = a;
 		a = b;
-		b = a;
+		b = temp;
 	}
 };
 
