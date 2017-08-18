@@ -1,0 +1,4 @@
+﻿  Solution.cpp
+d:\documents\git\cppsamples\cppsamples\reversevowels\reversevowels\solution.h(43): warning C4715: 'Solution::reverseVowels': not all control paths return a value
+  reverseVowels.vcxproj -> D:\Documents\git\CPPSamples\CPPSamples\reverseVowels\Debug\reverseVowels.exe
+  reverseVowels.vcxproj -> D:\Documents\git\CPPSamples\CPPSamples\reverseVowels\Debug\reverseVowels.pdb (Full PDB)
