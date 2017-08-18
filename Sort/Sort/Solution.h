@@ -5,6 +5,7 @@ using namespace std;
 class Solution
 {
 public:
+	// ≤Â»Î≈≈–Ú
 	void insertionSort(int arr[], int n)
 	{
 		int v = -1;
@@ -132,5 +133,11 @@ public:
 		a = b;
 		b = temp;
 	}
+
+	// √∞≈›≈≈–Ú
+	// —°‘Ò≈≈–Ú
+	// º∆ ˝≈≈–Ú
+	// Õ∞≈≈–Ú
+
 };
 

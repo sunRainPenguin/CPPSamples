@@ -53,7 +53,7 @@ public:
 		{
 			return -1;
 		}
-		int midIndex = (first+last) / 2;
+		int midIndex = (first+last) / 2;  // “ª∞„ π”√first+(last-first)/2
 		if (target == src[midIndex])
 		{
 			return midIndex;
