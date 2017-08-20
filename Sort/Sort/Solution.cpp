@@ -17,5 +17,8 @@ int main()
 	int b[] = { 1,4,6,8,2,3,5,7 };
 	solution.quickSort(b, 8, 0, 7);
 	solution.printArr(b, 8);
+
+	cout << endl;
+	cout << sizeof(double) << endl;
 	return 0;
 }

@@ -1,4 +1,5 @@
 ﻿  Solution.cpp
-d:\documents\cppprojects\sort\sort\solution.h(88): warning C4715: 'Solution::MergeSort': not all control paths return a value
-  Sort.vcxproj -> D:\Documents\CPPProjects\Sort\Debug\Sort.exe
-  Sort.vcxproj -> D:\Documents\CPPProjects\Sort\Debug\Sort.pdb (Full PDB)
+d:\documents\git\cppsamples\cppsamples\sort\sort\solution.h(89): warning C4715: 'Solution::MergeSort': not all control paths return a value
+  LINK : D:\Documents\git\CPPSamples\CPPSamples\Sort\Debug\Sort.exe not found or not built by the last incremental link; performing full link
+  Sort.vcxproj -> D:\Documents\git\CPPSamples\CPPSamples\Sort\Debug\Sort.exe
+  Sort.vcxproj -> D:\Documents\git\CPPSamples\CPPSamples\Sort\Debug\Sort.pdb (Full PDB)

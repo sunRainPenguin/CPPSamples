@@ -23,5 +23,8 @@ int main(int argc, char * argv[]) {
 	}
 	cout << sizeof(arr) << " " <<sizeof(arr[0]) << endl;
 	cout << '\011' << endl;
+
+	int x = 1 + 1 / 2;
+	cout << "x: " << x <<endl;
 	return 0;
 }

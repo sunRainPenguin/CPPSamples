@@ -1,0 +1,5 @@
+﻿  Source.cpp
+d:\documents\git\cppsamples\cppsamples\testtemplate\testtemplate\source.cpp(10): error C2791: illegal use of 'super': 'BigNumber<int>' does not have any base classes
+  d:\documents\git\cppsamples\cppsamples\testtemplate\testtemplate\source.cpp(8): note: while compiling class template member function 'BigNumber<int> BigNumber<int>::operator +(BigNumber<int>)'
+  d:\documents\git\cppsamples\cppsamples\testtemplate\testtemplate\source.cpp(18): note: see reference to function template instantiation 'BigNumber<int> BigNumber<int>::operator +(BigNumber<int>)' being compiled
+  d:\documents\git\cppsamples\cppsamples\testtemplate\testtemplate\source.cpp(16): note: see reference to class template instantiation 'BigNumber<int>' being compiled
