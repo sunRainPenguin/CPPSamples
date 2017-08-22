@@ -1,0 +1,4 @@
+﻿  Solution.cpp
+d:\documents\git\cppsamples\cppsamples\matchpattern\matchpattern\solution.h(18): warning C4018: '<': signed/unsigned mismatch
+  matchPattern.vcxproj -> D:\Documents\git\CPPSamples\CPPSamples\matchPattern\Debug\matchPattern.exe
+  matchPattern.vcxproj -> D:\Documents\git\CPPSamples\CPPSamples\matchPattern\Debug\matchPattern.pdb (Full PDB)

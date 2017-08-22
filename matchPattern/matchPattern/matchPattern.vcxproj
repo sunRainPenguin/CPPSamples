@@ -142,6 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Automata.h" />
     <ClInclude Include="Solution.h" />
   </ItemGroup>
   <ItemGroup>
