@@ -3,6 +3,20 @@
 #include "Header1.h"
 using namespace std;
 
+template<class T>
+void delete2dArray(T** &x, int numberOfRows)
+{
+	//删除行数组空间
+	for (int i = 0; i < numberOfRows; i++)
+	{
+		delete [] x[i];
+	}
+
+	// 删除行指针
+	delete[] x;
+	x = NULL;
+}
+
 int func2(char *filename)
 {
 	FILE *fp;
