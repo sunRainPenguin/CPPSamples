@@ -1,9 +1,10 @@
 ﻿  Solution.cpp
-d:\documents\git\cppsamples\cppsamples\wordsearch\wordsearch\solution.h(267): warning C4018: '<': signed/unsigned mismatch
-d:\documents\git\cppsamples\cppsamples\wordsearch\wordsearch\solution.h(272): warning C4018: '<': signed/unsigned mismatch
-d:\documents\git\cppsamples\cppsamples\wordsearch\wordsearch\solution.h(290): warning C4018: '<': signed/unsigned mismatch
-d:\documents\git\cppsamples\cppsamples\wordsearch\wordsearch\solution.h(291): warning C4018: '<': signed/unsigned mismatch
-d:\documents\git\cppsamples\cppsamples\wordsearch\wordsearch\solution.h(300): warning C4018: '>=': signed/unsigned mismatch
-d:\documents\git\cppsamples\cppsamples\wordsearch\wordsearch\solution.cpp(9): warning C4018: '<': signed/unsigned mismatch
-  wordSearch.vcxproj -> D:\Documents\git\CPPSamples\CPPSamples\wordSearch\Debug\wordSearch.exe
-  wordSearch.vcxproj -> D:\Documents\git\CPPSamples\CPPSamples\wordSearch\Debug\wordSearch.pdb (Full PDB)
+d:\documents\cppprojects\cppsamples\wordsearch\wordsearch\solution.h(267): warning C4018: '<': signed/unsigned mismatch
+d:\documents\cppprojects\cppsamples\wordsearch\wordsearch\solution.h(272): warning C4018: '<': signed/unsigned mismatch
+d:\documents\cppprojects\cppsamples\wordsearch\wordsearch\solution.h(290): warning C4018: '<': signed/unsigned mismatch
+d:\documents\cppprojects\cppsamples\wordsearch\wordsearch\solution.h(291): warning C4018: '<': signed/unsigned mismatch
+d:\documents\cppprojects\cppsamples\wordsearch\wordsearch\solution.h(300): warning C4018: '>=': signed/unsigned mismatch
+d:\documents\cppprojects\cppsamples\wordsearch\wordsearch\solution.cpp(9): warning C4018: '<': signed/unsigned mismatch
+  LINK : D:\Documents\CPPProjects\CPPSamples\wordSearch\Debug\WordSearch.exe not found or not built by the last incremental link; performing full link
+  WordSearch.vcxproj -> D:\Documents\CPPProjects\CPPSamples\wordSearch\Debug\WordSearch.exe
+  WordSearch.vcxproj -> D:\Documents\CPPProjects\CPPSamples\wordSearch\Debug\WordSearch.pdb (Full PDB)
