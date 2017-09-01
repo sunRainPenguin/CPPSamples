@@ -1,0 +1,34 @@
+﻿  Source.cpp
+d:\documents\cppprojects\cppsamples\ali_validsplit\ali_validsplit\source.cpp(81): warning C4018: '<': signed/unsigned mismatch
+d:\documents\cppprojects\cppsamples\ali_validsplit\ali_validsplit\source.cpp(101): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+d:\documents\cppprojects\cppsamples\ali_validsplit\ali_validsplit\source.cpp(102): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+d:\documents\cppprojects\cppsamples\ali_validsplit\ali_validsplit\source.cpp(104): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+d:\documents\cppprojects\cppsamples\ali_validsplit\ali_validsplit\source.cpp(109): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: see declaration of 'scanf'
+d:\documents\cppprojects\cppsamples\ali_validsplit\ali_validsplit\source.cpp(110): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+d:\documents\cppprojects\cppsamples\ali_validsplit\ali_validsplit\source.cpp(96): warning C4101: 'dictStr': unreferenced local variable
+d:\microsoft visual studio 14.0\vc\include\xstddef(239): error C2678: binary '<': no operator found which takes a left-hand operand of type 'const simple_str_t' (or there is no acceptable conversion)
+  d:\microsoft visual studio 14.0\vc\include\system_error(436): note: could be 'bool std::operator <(const std::error_condition &,const std::error_condition &) noexcept'
+  d:\microsoft visual studio 14.0\vc\include\system_error(427): note: or       'bool std::operator <(const std::error_code &,const std::error_code &) noexcept'
+  d:\microsoft visual studio 14.0\vc\include\xstddef(239): note: while trying to match the argument list '(const simple_str_t, const simple_str_t)'
+  d:\microsoft visual studio 14.0\vc\include\xstddef(238): note: while compiling class template member function 'bool std::less<_Kty>::operator ()(const _Ty &,const _Ty &) const'
+          with
+          [
+              _Kty=simple_str_t,
+              _Ty=simple_str_t
+          ]
+  d:\microsoft visual studio 14.0\vc\include\xutility(896): note: see reference to function template instantiation 'bool std::less<_Kty>::operator ()(const _Ty &,const _Ty &) const' being compiled
+          with
+          [
+              _Kty=simple_str_t,
+              _Ty=simple_str_t
+          ]
+  d:\documents\cppprojects\cppsamples\ali_validsplit\ali_validsplit\source.cpp(35): note: see reference to class template instantiation 'std::less<_Kty>' being compiled
+          with
+          [
+              _Kty=simple_str_t
+          ]

@@ -1,0 +1,4 @@
+﻿  Source.cpp
+d:\documents\cppprojects\cppsamples\huawei_substring\huawei_substring\source.cpp(33): warning C4018: '<': signed/unsigned mismatch
+  Huawei_substring.vcxproj -> D:\Documents\CPPProjects\CPPSamples\Huawei_substring\Debug\Huawei_substring.exe
+  Huawei_substring.vcxproj -> D:\Documents\CPPProjects\CPPSamples\Huawei_substring\Debug\Huawei_substring.pdb (Full PDB)
