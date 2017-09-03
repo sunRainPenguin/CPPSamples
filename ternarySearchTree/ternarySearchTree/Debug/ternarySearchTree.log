@@ -1,0 +1,6 @@
+﻿  TernarySearchTree.cpp
+d:\documents\cppprojects\cppsamples\ternarysearchtree\ternarysearchtree\ternarysearchtree.cpp(13): warning C4018: '>=': signed/unsigned mismatch
+d:\documents\cppprojects\cppsamples\ternarysearchtree\ternarysearchtree\ternarysearchtree.cpp(23): warning C4018: '>=': signed/unsigned mismatch
+d:\documents\cppprojects\cppsamples\ternarysearchtree\ternarysearchtree\ternarysearchtree.cpp(90): warning C4018: '<': signed/unsigned mismatch
+  ternarySearchTree.vcxproj -> D:\Documents\CPPProjects\CPPSamples\ternarySearchTree\Debug\ternarySearchTree.exe
+  ternarySearchTree.vcxproj -> D:\Documents\CPPProjects\CPPSamples\ternarySearchTree\Debug\ternarySearchTree.pdb (Full PDB)
