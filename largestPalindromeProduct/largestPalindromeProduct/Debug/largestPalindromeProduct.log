@@ -1,0 +1,7 @@
+﻿  Solution.cpp
+d:\documents\cppprojects\cppsamples\largestpalindromeproduct\largestpalindromeproduct\solution.h(18): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+d:\documents\cppprojects\cppsamples\largestpalindromeproduct\largestpalindromeproduct\solution.h(19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+d:\documents\cppprojects\cppsamples\largestpalindromeproduct\largestpalindromeproduct\solution.cpp(5): warning C4101: 'input': unreferenced local variable
+d:\documents\cppprojects\cppsamples\largestpalindromeproduct\largestpalindromeproduct\solution.cpp(6): warning C4101: 'solution': unreferenced local variable
+  largestPalindromeProduct.vcxproj -> D:\Documents\CPPProjects\CPPSamples\largestPalindromeProduct\Debug\largestPalindromeProduct.exe
+  largestPalindromeProduct.vcxproj -> D:\Documents\CPPProjects\CPPSamples\largestPalindromeProduct\Debug\largestPalindromeProduct.pdb (Full PDB)

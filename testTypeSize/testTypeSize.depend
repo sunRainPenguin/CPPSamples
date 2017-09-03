@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1504422155 source:d:\documents\cppprojects\cppsamples\testtypesize\main.cpp
+	<iostream>
+	<string>
+	<limits>
+

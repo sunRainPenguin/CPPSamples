@@ -1,0 +1,5 @@
+﻿  Solution.cpp
+d:\documents\cppprojects\cppsamples\excelsheetcolumnnumber\excelsheetcolumnnumber\solution.h(11): warning C4018: '<': signed/unsigned mismatch
+d:\documents\cppprojects\cppsamples\excelsheetcolumnnumber\excelsheetcolumnnumber\solution.h(13): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  excelSheetColumnNumber.vcxproj -> D:\Documents\CPPProjects\CPPSamples\excelSheetColumnNumber\Debug\excelSheetColumnNumber.exe
+  excelSheetColumnNumber.vcxproj -> D:\Documents\CPPProjects\CPPSamples\excelSheetColumnNumber\Debug\excelSheetColumnNumber.pdb (Full PDB)

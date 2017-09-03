@@ -1,6 +1,18 @@
 #include <iostream>
 #include <iterator>
+#include <algorithm>
 using namespace std;
+
+template<class	T>
+void STLpermutations(T list[], int k, int m)
+{
+	sort(list, list + m+1);
+	do 
+	{
+		copy(list, list + m + 1, ostream_iterator<T>(cout, ""));
+		cout << endl;
+	} while (next_permutation(list, list + m + 1));
+}
 
 template<class T>
 void permutaion(T list[], int k, int m)
@@ -24,7 +36,8 @@ void permutaion(T list[], int k, int m)
 
 int main()
 {
-	char chs[3] = { 'a','b','c' };
+	char chs[3] = { 'b','a','c' };
 	permutaion(chs, 0, 2);
+	STLpermutations(chs, 0, 2);
 	return 0;
 }

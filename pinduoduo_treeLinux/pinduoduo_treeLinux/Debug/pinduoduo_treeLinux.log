@@ -1,0 +1,9 @@
+﻿  Source.cpp
+d:\documents\cppprojects\cppsamples\pinduoduo_treelinux\pinduoduo_treelinux\source.cpp(51): warning C4018: '<': signed/unsigned mismatch
+d:\documents\cppprojects\cppsamples\pinduoduo_treelinux\pinduoduo_treelinux\source.cpp(67): warning C4018: '<': signed/unsigned mismatch
+d:\documents\cppprojects\cppsamples\pinduoduo_treelinux\pinduoduo_treelinux\source.cpp(75): warning C4018: '<': signed/unsigned mismatch
+d:\documents\cppprojects\cppsamples\pinduoduo_treelinux\pinduoduo_treelinux\source.cpp(90): warning C4018: '<': signed/unsigned mismatch
+d:\documents\cppprojects\cppsamples\pinduoduo_treelinux\pinduoduo_treelinux\source.cpp(101): warning C4018: '<': signed/unsigned mismatch
+d:\documents\cppprojects\cppsamples\pinduoduo_treelinux\pinduoduo_treelinux\source.cpp(133): warning C4018: '<': signed/unsigned mismatch
+  pinduoduo_treeLinux.vcxproj -> D:\Documents\CPPProjects\CPPSamples\pinduoduo_treeLinux\Debug\pinduoduo_treeLinux.exe
+  pinduoduo_treeLinux.vcxproj -> D:\Documents\CPPProjects\CPPSamples\pinduoduo_treeLinux\Debug\pinduoduo_treeLinux.pdb (Full PDB)
