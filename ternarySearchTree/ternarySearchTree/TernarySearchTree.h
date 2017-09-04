@@ -15,6 +15,6 @@ public:
 	
 	static TSTNode* insertInTSTNode(TSTNode* curr, string word, int position);
 	static bool searchInTSTNode(TSTNode* curr, string word, int position);
-	/*static void displayAllWords(TSTNode* root, string word, int i);*/
+	static void displayAllWords(TSTNode* root, string prefix);
 };
 

@@ -76,29 +76,18 @@ bool TSTNode::searchInTSTNode(TSTNode * curr, string word, int position)
 	return false;
 }
 
-// 这段遍历有问题
-//void TSTNode::displayAllWords(TSTNode * root, string word, int i)
-//{
-//	if (root == NULL)
-//	{
-//		return;
-//	}
-//	displayAllWords(root->left,word,i);
-//	if (word.empty())
-//	{
-//		word.push_back('0');
-//	}
-//	while (word.length()-1  < i)
-//	{
-//		word.push_back('0');
-//	}
-//	word[i] = root->data;
-//	if (root->is_end)
-//	{
-//		cout << word << endl;
-//	}
-//	i++;
-//	displayAllWords(root->left, word, i);
-//	i--;
-//	displayAllWords(root->right, word, i);
-//}
+void TSTNode::displayAllWords(TSTNode * root, string prefix)
+{
+	string temp = "";
+	if (root != NULL)
+	{
+		temp = prefix + root->data;
+		if (root->is_end)
+		{
+			cout << temp << endl;
+		}
+		displayAllWords(root->left, prefix);
+		displayAllWords(root->mid, temp);
+		displayAllWords(root->right, prefix);
+	}
+}

@@ -10,6 +10,6 @@ int main()
 	TSTNode::insertInTSTNode(root, "i", 0);
 	TSTNode::insertInTSTNode(root, "us", 0);
 	cout << TSTNode::searchInTSTNode(root, "cu", 0) << endl;
-	TSTNode::displayAllWords(root, "", 0);
+	TSTNode::displayAllWords(root, "");
 	return 0;
 }

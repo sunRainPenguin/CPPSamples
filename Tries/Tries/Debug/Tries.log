@@ -1,6 +1,3 @@
 ﻿  TrieNode.cpp
-d:\documents\git\cppsamples\cppsamples\tries\tries\trienode.h(25): warning C4018: '<': signed/unsigned mismatch
-d:\documents\git\cppsamples\cppsamples\tries\tries\trienode.h(60): warning C4018: '<': signed/unsigned mismatch
-d:\documents\git\cppsamples\cppsamples\tries\tries\trienode.h(94): warning C4018: '<': signed/unsigned mismatch
-  Tries.vcxproj -> D:\Documents\git\CPPSamples\CPPSamples\Tries\Debug\Tries.exe
-  Tries.vcxproj -> D:\Documents\git\CPPSamples\CPPSamples\Tries\Debug\Tries.pdb (Full PDB)
+  Tries.vcxproj -> D:\Documents\CPPProjects\CPPSamples\Tries\Debug\Tries.exe
+  Tries.vcxproj -> D:\Documents\CPPProjects\CPPSamples\Tries\Debug\Tries.pdb (Full PDB)

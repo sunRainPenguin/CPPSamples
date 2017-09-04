@@ -6,107 +6,76 @@ using namespace std;
 
 class TrieNode
 {
-public:
-	char data;
-	bool isEndOfString;
-	vector<TrieNode*> children;
-
-	TrieNode(char c)
-	{
-		isEndOfString = false;
-		data = c;
-	}
-
-	// 查找某个节点的孩子节点
-	TrieNode* subNode(char c)
-	{
-		if (!children.empty())
-		{
-			for (int i = 0; i < children.size(); i++)
-			{
-				if (children[i]->data == c)
-				{
-					return children[i];
-				}
-			}
-		}
-		return NULL;
-	}
-
-};
-
-class Trie 
-{
 private:
-	TrieNode* root;
+	bool isWord;
+	TrieNode* children[26];		// 26个小写字母
 
 public:
-	Trie()
+	TrieNode():isWord(false)
 	{
-		root = new TrieNode(' ');
-	}
-	
-	// 插入前缀树
-	void insertInTrie(string s)
-	{
-		if (s.empty())
+		for (int i = 0; i < 26; i++)
 		{
-			root->isEndOfString = true;
-			return;
+			children[i] = NULL;
 		}
-		TrieNode* currNode = root;
+	}
+
+	void insertInTrie(TrieNode* root, string word)
+	{
+		TrieNode* rootbak = root;
 		int index = 0;
-		TrieNode* tempNode = NULL;
-		while (index<s.length())
+		int id = 0;
+		int length = word.length();
+		while (index<length)
 		{
-			tempNode = currNode->subNode(s[index]);
-			if (tempNode != NULL)
+			id = word[index] - 'a';
+			if (root->children[id] == NULL)
 			{
-				currNode = tempNode;
+				root->children[id] = new TrieNode();
 			}
-			else
-			{
-				tempNode = new TrieNode(s[index]);
-				currNode->children.push_back(tempNode);
-				currNode = tempNode;
-			}
+			root = root->children[id];
 			index++;
 		}
-		currNode->isEndOfString = true;
+		root->isWord = true;
+		root = rootbak;	//指针指回来
 	}
 
-	// 查找
-	bool searchInTries(string s)
+	bool searchInTrie(TrieNode* root, string word)
 	{
-		if (s.empty() && root->isEndOfString)
+		TrieNode* rootbak = root;
+		bool result = false;
+		int index = 0;
+		int id = 0;
+		int length = word.length();
+		while (index<length)
 		{
-			return true;
-		}
-
-		if (s[0] != root->data)
-		{
-			return false;
-		}
-		else
-		{
-			int index = 1;
-			TrieNode* finded = root;
-			while (index<s.length())
-			{
-				finded = finded->subNode(s[index]);
-				if (finded == NULL)
-				{
-					return false;
-				}
-				index++;
-			}
-			if (finded != NULL && finded->isEndOfString)
-			{
-				return true;
-			}
-			else
+			id = word[index] - 'a';
+			if (root->children[id] == NULL)
 			{
 				return false;
+			}
+			root = root->children[id];
+			index++;
+		}
+		result = root->isWord;
+		root = rootbak;	//指针指回来
+		return result;
+	}
+
+	void tranversal(TrieNode* root,string prefixs)
+	{
+		if (root != NULL)
+		{
+			if (root->isWord)
+			{
+				cout << prefixs << endl;
+			}
+			for (int i = 0; i < 26; i++)
+			{
+				if (root->children[i] != NULL)
+				{
+					prefixs.push_back('a' + i);
+					tranversal(root->children[i], prefixs);
+				}
 			}
 		}
 	}
