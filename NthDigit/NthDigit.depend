@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1504515586 source:d:\documents\cppprojects\cppsamples\nthdigit\main.cpp
+	<iostream>
+	<limits>
+	"Solution.h"
+
+1504515823 d:\documents\cppprojects\cppsamples\nthdigit\include\solution.h
+
+1504515816 source:d:\documents\cppprojects\cppsamples\nthdigit\src\solution.cpp
+	"Solution.h"
+

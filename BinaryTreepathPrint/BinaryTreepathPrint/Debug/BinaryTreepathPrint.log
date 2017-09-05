@@ -1,0 +1,4 @@
+﻿  Solution.cpp
+d:\documents\cppprojects\cppsamples\binarytreepathprint\binarytreepathprint\solution.cpp(41): warning C4018: '<': signed/unsigned mismatch
+  BinaryTreepathPrint.vcxproj -> D:\Documents\CPPProjects\CPPSamples\BinaryTreepathPrint\Debug\BinaryTreepathPrint.exe
+  BinaryTreepathPrint.vcxproj -> D:\Documents\CPPProjects\CPPSamples\BinaryTreepathPrint\Debug\BinaryTreepathPrint.pdb (Full PDB)
