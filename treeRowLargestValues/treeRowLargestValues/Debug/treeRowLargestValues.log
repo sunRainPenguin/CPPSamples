@@ -1,0 +1,4 @@
+﻿  Solution.cpp
+d:\documents\cppprojects\cppsamples\treerowlargestvalues\treerowlargestvalues\solution.cpp(20): warning C4018: '<': signed/unsigned mismatch
+  treeRowLargestValues.vcxproj -> D:\Documents\CPPProjects\CPPSamples\treeRowLargestValues\Debug\treeRowLargestValues.exe
+  treeRowLargestValues.vcxproj -> D:\Documents\CPPProjects\CPPSamples\treeRowLargestValues\Debug\treeRowLargestValues.pdb (Full PDB)
