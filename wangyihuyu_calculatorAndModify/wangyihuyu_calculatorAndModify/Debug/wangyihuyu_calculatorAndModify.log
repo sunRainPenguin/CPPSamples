@@ -1,0 +1,5 @@
+﻿  Source.cpp
+d:\documents\cppprojects\cppsamples\wangyihuyu_calculatorandmodify\wangyihuyu_calculatorandmodify\source.cpp(32): warning C4018: '<': signed/unsigned mismatch
+d:\documents\cppprojects\cppsamples\wangyihuyu_calculatorandmodify\wangyihuyu_calculatorandmodify\source.cpp(64): warning C4715: 'calculate': not all control paths return a value
+  wangyihuyu_calculatorAndModify.vcxproj -> D:\Documents\CPPProjects\CPPSamples\wangyihuyu_calculatorAndModify\Debug\wangyihuyu_calculatorAndModify.exe
+  wangyihuyu_calculatorAndModify.vcxproj -> D:\Documents\CPPProjects\CPPSamples\wangyihuyu_calculatorAndModify\Debug\wangyihuyu_calculatorAndModify.pdb (Full PDB)

@@ -1,5 +1,8 @@
 #include <iostream>
 #include <stdlib.h>
+#include <map>
+#include <vector>
+#include <string>
 #include "Header1.h"
 using namespace std;
 
@@ -31,5 +34,9 @@ int main()
 	cout << x << endl;
 	cout << sizeof(3) << endl;
 	func2("test.txt");
+
+	
+
+
 	return 0;
 }

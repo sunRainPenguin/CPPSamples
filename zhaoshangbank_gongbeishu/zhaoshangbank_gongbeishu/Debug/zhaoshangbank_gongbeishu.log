@@ -1,0 +1,4 @@
+﻿  Source.cpp
+d:\documents\cppprojects\cppsamples\zhaoshangbank_gongbeishu\zhaoshangbank_gongbeishu\source.cpp(8): warning C4804: '<=': unsafe use of type 'bool' in operation
+  zhaoshangbank_gongbeishu.vcxproj -> D:\Documents\CPPProjects\CPPSamples\zhaoshangbank_gongbeishu\Debug\zhaoshangbank_gongbeishu.exe
+  zhaoshangbank_gongbeishu.vcxproj -> D:\Documents\CPPProjects\CPPSamples\zhaoshangbank_gongbeishu\Debug\zhaoshangbank_gongbeishu.pdb (Full PDB)

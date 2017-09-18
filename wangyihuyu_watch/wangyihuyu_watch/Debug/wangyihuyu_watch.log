@@ -1,0 +1,4 @@
+﻿  Source.cpp
+d:\documents\cppprojects\cppsamples\wangyihuyu_watch\wangyihuyu_watch\source.cpp(17): warning C4101: 'f': unreferenced local variable
+  wangyihuyu_watch.vcxproj -> D:\Documents\CPPProjects\CPPSamples\wangyihuyu_watch\Debug\wangyihuyu_watch.exe
+  wangyihuyu_watch.vcxproj -> D:\Documents\CPPProjects\CPPSamples\wangyihuyu_watch\Debug\wangyihuyu_watch.pdb (Full PDB)

@@ -1,0 +1,5 @@
+﻿  Solution.cpp
+d:\documents\cppprojects\cppsamples\reversewords\reversewords\solution.h(42): warning C4018: '<': signed/unsigned mismatch
+d:\documents\cppprojects\cppsamples\reversewords\reversewords\solution.h(45): warning C4018: '<': signed/unsigned mismatch
+  reverseWords.vcxproj -> D:\Documents\CPPProjects\CPPSamples\reverseWords\Debug\reverseWords.exe
+  reverseWords.vcxproj -> D:\Documents\CPPProjects\CPPSamples\reverseWords\Debug\reverseWords.pdb (Full PDB)

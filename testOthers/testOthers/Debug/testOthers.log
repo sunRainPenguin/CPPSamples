@@ -1,8 +1,7 @@
 ﻿  Source.cpp
-d:\documents\git\cppsamples\cppsamples\testothers\testothers\source.cpp(24): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+d:\documents\cppprojects\cppsamples\testothers\testothers\source.cpp(27): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
-d:\documents\git\cppsamples\cppsamples\testothers\testothers\source.cpp(25): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+d:\documents\cppprojects\cppsamples\testothers\testothers\source.cpp(28): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1193): note: see declaration of 'fscanf'
-  LINK : D:\Documents\git\CPPSamples\CPPSamples\testOthers\Debug\testOthers.exe not found or not built by the last incremental link; performing full link
-  testOthers.vcxproj -> D:\Documents\git\CPPSamples\CPPSamples\testOthers\Debug\testOthers.exe
-  testOthers.vcxproj -> D:\Documents\git\CPPSamples\CPPSamples\testOthers\Debug\testOthers.pdb (Full PDB)
+  testOthers.vcxproj -> D:\Documents\CPPProjects\CPPSamples\testOthers\Debug\testOthers.exe
+  testOthers.vcxproj -> D:\Documents\CPPProjects\CPPSamples\testOthers\Debug\testOthers.pdb (Full PDB)

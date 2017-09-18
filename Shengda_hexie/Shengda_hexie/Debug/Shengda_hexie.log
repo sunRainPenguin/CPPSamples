@@ -1,0 +1,4 @@
+﻿  Source.cpp
+d:\documents\cppprojects\cppsamples\shengda_hexie\shengda_hexie\source.cpp(13): warning C4018: '<': signed/unsigned mismatch
+  Shengda_hexie.vcxproj -> D:\Documents\CPPProjects\CPPSamples\Shengda_hexie\Debug\Shengda_hexie.exe
+  Shengda_hexie.vcxproj -> D:\Documents\CPPProjects\CPPSamples\Shengda_hexie\Debug\Shengda_hexie.pdb (Full PDB)
