@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1506947221 source:d:\documents\cppprojects\cppsamples\addtwonumbers1\main.cpp
+	<iostream>
+	"Solution.h"
+
+1506959314 d:\documents\cppprojects\cppsamples\addtwonumbers1\include\solution.h
+	<cstddef>
+	<vector>
+
+1506931872 source:d:\documents\cppprojects\cppsamples\addtwonumbers1\src\solution.cpp
+	"Solution.h"
+
