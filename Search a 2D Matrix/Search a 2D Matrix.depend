@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1507361987 source:d:\documents\cprojects\cppsamples\search a 2d matrix\main.cpp
+	<iostream>
+	"Solution.h"
+
+1507362070 d:\documents\cprojects\cppsamples\search a 2d matrix\include\solution.h
+	<vector>
+
