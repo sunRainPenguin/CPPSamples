@@ -7,7 +7,7 @@ int str2Int(string version)
 {
 	int j = 1;
 	int result = 0;
-	for (int i = version.length()-1; i >=0 ; i--)
+	for (int i = version.length() - 1; i >= 0; i--)
 	{
 		result = result + (version[i] - '0')*j;
 		j = j * 10;
@@ -65,7 +65,7 @@ public:
 					iv2 = str2Int(v2.c_str());
 					v2 = "";
 				}
-				
+
 				// 比较两个.之间的整数值
 				if (iv1>iv2)
 				{
