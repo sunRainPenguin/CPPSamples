@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1509893154 source:d:\documents\cprojects\cppsamples\compareversionnumbers\main.cpp
-	<iostream>
-	"Solution.h"
-
-1509893144 d:\documents\cprojects\cppsamples\compareversionnumbers\include\solution.h
-	<string>
-	<stdlib.h>
-
